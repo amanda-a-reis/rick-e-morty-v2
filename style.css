@@ -44,7 +44,8 @@ body {
   width: 100%;
   flex-wrap: wrap;
   margin-left: 50px;
-  padding-top: 100px;
+  padding-top: 30px;
+  margin-bottom: 110px;
 }
 
 .info img {
@@ -87,10 +88,9 @@ body {
 .sinopse {
   padding: 30px;
   margin-left: 50px;
-  background-color: #02021cab;
+  background-color: #02021c69;
   color: white;
-  margin-top: 20px;
-  width: 50%;
+  width: 35%;
   font-size: 20px;
   border-radius: 8px;
 }
