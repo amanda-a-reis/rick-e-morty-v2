@@ -26,7 +26,7 @@ body {
 .informacoes {
   background-image: url("./img/background.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .info-temporadas {
@@ -211,10 +211,16 @@ body {
   transition: all 0.5s ease;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1237px) {
   .informacoes {
     background-image: url("./img/background-2.png");
-    background-position: -50px;
+    background-size: cover;
+    background-position: 0px;
+  }
+
+  .sinopse {
+    width: 80%;
+    background-color: #02021c9d;
   }
 }
 
